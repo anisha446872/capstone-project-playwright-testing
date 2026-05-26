@@ -110,7 +110,7 @@ export default defineConfig({
   use: {
 
     // Browser launch
-    headless: false,
+  headless: true,
 
     // Navigation timeout
     navigationTimeout: 60000,
