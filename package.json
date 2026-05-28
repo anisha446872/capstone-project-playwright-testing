@@ -8,7 +8,11 @@
     "doc": "docs"
   },
 
- 
+  "scripts": {
+    "test": "playwright test",
+    "test:ci": "playwright test",
+    "allure:generate": "allure generate allure-results --clean -o allure-report"
+  },
 
   "repository": {
     "type": "git",
