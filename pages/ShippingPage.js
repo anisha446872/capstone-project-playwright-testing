@@ -34,6 +34,12 @@ class ShippingPage {
     this.body =
       page.locator('body');
 
+    this.footer =
+      page.locator('footer');
+
+    this.subscriptionText =
+      page.locator('body');
+
   }
 
   async openProductsPage() {
